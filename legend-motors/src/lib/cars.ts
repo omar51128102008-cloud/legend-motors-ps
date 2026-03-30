@@ -19,20 +19,20 @@
 
 import { Car, Testimonial } from "./types";
 
-// ─── Real car images from Imagin Studio CDN (free for demos) ───
-// These generate actual renders of each car by make, model, year, and angle.
-// Replace with your own photos later for production.
+// ─── Car photos ───
+// Cars 1-2: 6 local photos each (in public/cars/)
+// Cars 3-12: 3 local photos each
+// Cars 13-22: Imagin Studio CDN renders (replace with local photos later)
 const carImg = (make: string, model: string, year: number, angle: number) =>
   `https://cdn.imagin.studio/getimage?customer=hrjavascript-mastery&make=${encodeURIComponent(make)}&modelFamily=${encodeURIComponent(model)}&modelYear=${year}&angle=${angle}&zoomType=fullscreen&width=800`;
 
-// Helper to generate 6 angles for each car
-const carPhotos = (make: string, model: string, year: number) => [
-  carImg(make, model, year, 1),   // front 3/4 view
-  carImg(make, model, year, 9),   // rear 3/4 view
-  carImg(make, model, year, 13),  // side view
-  carImg(make, model, year, 23),  // front view
-  carImg(make, model, year, 29),  // rear view
-  carImg(make, model, year, 5),   // alternate angle
+const carCdn = (make: string, model: string, year: number) => [
+  carImg(make, model, year, 1),
+  carImg(make, model, year, 9),
+  carImg(make, model, year, 13),
+  carImg(make, model, year, 23),
+  carImg(make, model, year, 29),
+  carImg(make, model, year, 5),
 ];
 
 export const cars: Car[] = [
@@ -51,7 +51,7 @@ export const cars: Car[] = [
     transmission: "Automatic",
     color: "Pearl White",
     condition: "New",
-    photos: carPhotos("Toyota", "Camry", 2024),
+    photos: ["/cars/camry-1.jpg", "/cars/camry-2.jpg", "/cars/camry-3.jpg", "/cars/camry-4.jpg", "/cars/camry-5.jpg", "/cars/camry-6.jpg"],
     description:
       "Brand new 2024 Toyota Camry LE with the latest safety features and a refined interior. This midsize sedan delivers excellent fuel economy and legendary Toyota reliability. Perfect for families and professionals who want comfort without compromise.",
     specs: {
@@ -95,7 +95,7 @@ export const cars: Car[] = [
     transmission: "Automatic",
     color: "Phantom Black",
     condition: "Certified Pre-Owned",
-    photos: carPhotos("Hyundai", "Tucson", 2023),
+    photos: ["/cars/tucson-1.jpg", "/cars/tucson-2.jpg", "/cars/tucson-3.jpg", "/cars/tucson-4.jpg", "/cars/tucson-5.jpg", "/cars/tucson-6.jpg"],
     description:
       "This certified pre-owned 2023 Hyundai Tucson SEL combines bold styling with cutting-edge technology. The angular design turns heads while the spacious interior keeps everyone comfortable. AWD capability makes it perfect for all road conditions.",
     specs: {
@@ -140,7 +140,7 @@ export const cars: Car[] = [
     transmission: "Automatic",
     color: "Gravity Grey",
     condition: "New",
-    photos: carPhotos("Kia", "Sportage", 2024),
+    photos: ["/cars/sportage-1.jpg", "/cars/sportage-2.jpg", "/cars/sportage-3.jpg"],
     description:
       "The all-new 2024 Kia Sportage LX features a stunning boomerang-shaped LED daytime running light design. It offers one of the most spacious interiors in its class with advanced driver assistance technologies. An excellent choice for style-conscious families.",
     specs: {
@@ -182,7 +182,7 @@ export const cars: Car[] = [
     transmission: "Automatic",
     color: "Reflex Silver",
     condition: "Used",
-    photos: carPhotos("Volkswagen", "Passat", 2022),
+    photos: ["/cars/passat-1.jpg", "/cars/passat-2.jpg", "/cars/passat-3.jpg"],
     description:
       "A refined German sedan with the sporty R-Line package. This Passat delivers a smooth ride with turbocharged performance and a premium interior. German engineering at a great value.",
     specs: {
@@ -225,7 +225,7 @@ export const cars: Car[] = [
     transmission: "Automatic",
     color: "Blueprint",
     condition: "New",
-    photos: carPhotos("Toyota", "RAV4", 2024),
+    photos: ["/cars/rav4-1.jpg", "/cars/rav4-2.jpg", "/cars/rav4-3.jpg"],
     description:
       "The 2024 Toyota RAV4 XLE Hybrid combines outstanding fuel economy with all-wheel drive capability. This compact SUV is America's best-selling SUV for good reason — it does everything well and looks great doing it.",
     specs: {
@@ -269,7 +269,7 @@ export const cars: Car[] = [
     transmission: "Automatic",
     color: "Rallye Red",
     condition: "Used",
-    photos: carPhotos("Honda", "Civic", 2023),
+    photos: ["/cars/civic-1.jpg", "/cars/civic-2.jpg", "/cars/civic-3.jpg"],
     description:
       "The 11th-generation Honda Civic Sport is a head-turner with its aggressive sport styling and engaging driving dynamics. CVT transmission with sport mode delivers responsive performance while maintaining excellent fuel efficiency.",
     specs: {
@@ -312,7 +312,7 @@ export const cars: Car[] = [
     transmission: "Automatic",
     color: "Intense Blue",
     condition: "Certified Pre-Owned",
-    photos: carPhotos("Hyundai", "Elantra", 2024),
+    photos: ["/cars/elantra-1.jpg", "/cars/elantra-2.jpg", "/cars/elantra-3.jpg"],
     description:
       "The Elantra N Line brings sporty performance to the compact sedan segment. With a turbocharged engine and sport-tuned suspension, it's the perfect balance between daily comfort and weekend fun.",
     specs: {
@@ -356,7 +356,7 @@ export const cars: Car[] = [
     transmission: "Automatic",
     color: "Oxford White",
     condition: "Certified Pre-Owned",
-    photos: carPhotos("Ford", "Explorer", 2023),
+    photos: ["/cars/explorer-1.jpg", "/cars/explorer-2.jpg", "/cars/explorer-3.jpg"],
     description:
       "The 2023 Ford Explorer XLT is a three-row SUV that excels at family duties while offering surprising driving dynamics. The turbocharged EcoBoost engine provides strong performance, and the spacious third row makes it ideal for large families.",
     specs: {
@@ -400,7 +400,7 @@ export const cars: Car[] = [
     transmission: "Automatic",
     color: "Classic Silver",
     condition: "Used",
-    photos: carPhotos("Toyota", "Corolla", 2022),
+    photos: ["/cars/corolla-1.jpg", "/cars/corolla-2.jpg", "/cars/corolla-3.jpg"],
     description:
       "The Toyota Corolla is the world's best-selling car for a reason. This 2022 LE model offers exceptional reliability, great fuel economy, and a comfortable ride. A smart investment for budget-conscious buyers.",
     specs: {
@@ -442,7 +442,7 @@ export const cars: Car[] = [
     transmission: "Automatic",
     color: "Starbright Yellow",
     condition: "New",
-    photos: carPhotos("Kia", "Seltos", 2024),
+    photos: ["/cars/seltos-1.jpg", "/cars/seltos-2.jpg", "/cars/seltos-3.jpg"],
     description:
       "The 2024 Kia Seltos SX Turbo packs premium features into a compact SUV body. With its turbocharged engine, it offers peppy performance while the high-tech interior punches well above its price point.",
     specs: {
@@ -485,7 +485,7 @@ export const cars: Car[] = [
     transmission: "Automatic",
     color: "Deep Black Pearl",
     condition: "Used",
-    photos: carPhotos("Volkswagen", "Tiguan", 2021),
+    photos: ["/cars/tiguan-1.jpg", "/cars/tiguan-2.jpg", "/cars/tiguan-3.jpg"],
     description:
       "The Volkswagen Tiguan SE offers German build quality in a practical compact SUV package. The turbocharged engine delivers confident power while the well-crafted interior feels a class above. Available third-row seating adds versatility.",
     specs: {
@@ -528,7 +528,7 @@ export const cars: Car[] = [
     transmission: "Automatic",
     color: "Graphite",
     condition: "New",
-    photos: carPhotos("Toyota", "Hilux", 2024),
+    photos: ["/cars/hilux-1.jpg", "/cars/hilux-2.jpg", "/cars/hilux-3.jpg"],
     description:
       "The legendary Toyota Hilux needs no introduction. This SR5 model combines rugged capability with modern comfort. The diesel engine offers incredible torque for towing and off-road work. Built to last in the toughest conditions.",
     specs: {
@@ -573,7 +573,7 @@ export const cars: Car[] = [
     transmission: "Automatic",
     color: "Shimmering Silver",
     condition: "Certified Pre-Owned",
-    photos: carPhotos("Hyundai", "Sonata", 2023),
+    photos: carCdn("Hyundai", "Sonata", 2023),
     description:
       "The Sonata Limited is Hyundai's flagship sedan loaded with premium features. The striking coupe-like silhouette hides a spacious interior with top-tier tech. Highway Driving Assist makes long commutes effortless.",
     specs: {
@@ -617,7 +617,7 @@ export const cars: Car[] = [
     transmission: "Automatic",
     color: "Obsidian Blue Pearl",
     condition: "Used",
-    photos: carPhotos("Honda", "CR-V", 2020),
+    photos: carCdn("Honda", "CR-V", 2020),
     description:
       "The Honda CR-V EX has been one of America's best-selling SUVs for years. This well-maintained example offers a turbocharged engine, Honda Sensing safety suite, and a practical, spacious interior. A dependable family hauler.",
     specs: {
@@ -660,7 +660,7 @@ export const cars: Car[] = [
     transmission: "Automatic",
     color: "Snow White Pearl",
     condition: "New",
-    photos: carPhotos("Kia", "Forte", 2024),
+    photos: carCdn("Kia", "Forte", 2024),
     description:
       "The Kia Forte GT is the sportiest variant of Kia's popular compact sedan. A turbocharged engine and 7-speed dual-clutch transmission deliver exhilarating performance. Premium features come standard, making it an incredible value.",
     specs: {
@@ -704,7 +704,7 @@ export const cars: Car[] = [
     transmission: "Automatic",
     color: "Midnight Black",
     condition: "Used",
-    photos: carPhotos("Toyota", "Land Cruiser", 2022),
+    photos: carCdn("Toyota", "Land Cruiser", 2022),
     description:
       "The iconic Toyota Land Cruiser — a symbol of prestige and unstoppable capability. This flagship SUV goes anywhere and does everything. The luxurious interior and legendary reliability make it the ultimate adventure vehicle.",
     specs: {
@@ -750,7 +750,7 @@ export const cars: Car[] = [
     transmission: "Automatic",
     color: "Astra Blue",
     condition: "Certified Pre-Owned",
-    photos: carPhotos("Kia", "Carnival", 2023),
+    photos: carCdn("Kia", "Carnival", 2023),
     description:
       "The Kia Carnival has redefined what a minivan can be. With SUV-like styling and premium features, this SX model is a luxury people mover. Three rows of comfortable seating and dual sunroofs make every journey special.",
     specs: {
@@ -794,7 +794,7 @@ export const cars: Car[] = [
     transmission: "Automatic",
     color: "Cyber Grey",
     condition: "New",
-    photos: carPhotos("Hyundai", "Kona", 2024),
+    photos: carCdn("Hyundai", "Kona", 2024),
     description:
       "Go electric with the all-new 2024 Hyundai Kona Electric. Redesigned from the ground up, it offers an impressive 261-mile range, fast charging capability, and a futuristic interior. The future of driving has arrived.",
     specs: {
@@ -839,7 +839,7 @@ export const cars: Car[] = [
     transmission: "Automatic",
     color: "Iconic Silver",
     condition: "Used",
-    photos: carPhotos("Ford", "F-150", 2021),
+    photos: carCdn("Ford", "F-150", 2021),
     description:
       "The Ford F-150 XLT is America's best-selling truck. This capable workhorse features the powerful EcoBoost engine, advanced towing technology, and a military-grade aluminum body. Whether for work or weekend adventures, the F-150 delivers.",
     specs: {
@@ -883,7 +883,7 @@ export const cars: Car[] = [
     transmission: "Manual",
     color: "Kings Red",
     condition: "Used",
-    photos: carPhotos("Volkswagen", "Golf", 2023),
+    photos: carCdn("Volkswagen", "Golf", 2023),
     description:
       "The Volkswagen Golf GTI is the original hot hatch and still the benchmark. This 8th generation model delivers thrilling performance with everyday practicality. The 6-speed manual gearbox makes every drive engaging.",
     specs: {
@@ -927,7 +927,7 @@ export const cars: Car[] = [
     transmission: "Automatic",
     color: "Celestite Grey",
     condition: "New",
-    photos: carPhotos("Toyota", "Corolla Cross", 2024),
+    photos: carCdn("Toyota", "Corolla Cross", 2024),
     description:
       "The Corolla Cross Hybrid brings Toyota's legendary hybrid technology to the popular compact crossover segment. With standard AWD and exceptional fuel economy, it's the smart choice for daily commuters who want SUV versatility.",
     specs: {
@@ -970,7 +970,7 @@ export const cars: Car[] = [
     transmission: "Automatic",
     color: "Still Night Pearl",
     condition: "Used",
-    photos: carPhotos("Honda", "Accord", 2019),
+    photos: carCdn("Honda", "Accord", 2019),
     description:
       "The Honda Accord Sport is a benchmark midsize sedan that balances performance, comfort, and reliability. The turbocharged engine provides spirited acceleration while still delivering great fuel economy. A proven choice at a great price.",
     specs: {
