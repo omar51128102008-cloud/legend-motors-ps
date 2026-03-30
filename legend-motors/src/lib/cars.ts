@@ -39,7 +39,7 @@ export const cars: Car[] = [
     transmission: "Automatic",
     color: "Pearl White",
     condition: "New",
-    photos: [ph(101), ph(102), ph(103), ph(104), ph(105), ph(106)],
+    photos: ["https://files.manuscdn.com/user_upload_by_module/session_file/310519663465545962/pQJNWnigECwwBMnM.jpg"],
     description:
       "Brand new 2024 Toyota Camry LE with the latest safety features and a refined interior. This midsize sedan delivers excellent fuel economy and legendary Toyota reliability. Perfect for families and professionals who want comfort without compromise.",
     specs: {
@@ -83,7 +83,7 @@ export const cars: Car[] = [
     transmission: "Automatic",
     color: "Phantom Black",
     condition: "Certified Pre-Owned",
-    photos: [ph(201), ph(202), ph(203), ph(204), ph(205), ph(206)],
+    photos: ["https://files.manuscdn.com/user_upload_by_module/session_file/310519663465545962/wLyLFlhwiISuKqmR.jpg"],
     description:
       "This certified pre-owned 2023 Hyundai Tucson SEL combines bold styling with cutting-edge technology. The angular design turns heads while the spacious interior keeps everyone comfortable. AWD capability makes it perfect for all road conditions.",
     specs: {
@@ -128,7 +128,7 @@ export const cars: Car[] = [
     transmission: "Automatic",
     color: "Gravity Grey",
     condition: "New",
-    photos: [ph(301), ph(302), ph(303), ph(304), ph(305), ph(306)],
+    photos: ["https://files.manuscdn.com/user_upload_by_module/session_file/310519663465545962/klwmFYWmvnVAsngp.jpg"],
     description:
       "The all-new 2024 Kia Sportage LX features a stunning boomerang-shaped LED daytime running light design. It offers one of the most spacious interiors in its class with advanced driver assistance technologies. An excellent choice for style-conscious families.",
     specs: {
@@ -170,7 +170,7 @@ export const cars: Car[] = [
     transmission: "Automatic",
     color: "Reflex Silver",
     condition: "Used",
-    photos: [ph(401), ph(402), ph(403), ph(404), ph(405), ph(406)],
+    photos: ["https://files.manuscdn.com/user_upload_by_module/session_file/310519663465545962/rmXcqKzhDLpwFpDE.jpg"],
     description:
       "A refined German sedan with the sporty R-Line package. This Passat delivers a smooth ride with turbocharged performance and a premium interior. German engineering at a great value.",
     specs: {
@@ -213,7 +213,7 @@ export const cars: Car[] = [
     transmission: "Automatic",
     color: "Blueprint",
     condition: "New",
-    photos: [ph(501), ph(502), ph(503), ph(504), ph(505), ph(506)],
+    photos: ["https://files.manuscdn.com/user_upload_by_module/session_file/310519663465545962/GUQrdswOhUxFBDqD.webp"],
     description:
       "The 2024 Toyota RAV4 XLE Hybrid combines outstanding fuel economy with all-wheel drive capability. This compact SUV is America's best-selling SUV for good reason — it does everything well and looks great doing it.",
     specs: {
@@ -257,7 +257,7 @@ export const cars: Car[] = [
     transmission: "Automatic",
     color: "Rallye Red",
     condition: "Used",
-    photos: [ph(601), ph(602), ph(603), ph(604), ph(605), ph(606)],
+    photos: ["https://files.manuscdn.com/user_upload_by_module/session_file/310519663465545962/YraMTXIDOSljkyuJ.jpg"],
     description:
       "The 11th-generation Honda Civic Sport is a head-turner with its aggressive sport styling and engaging driving dynamics. CVT transmission with sport mode delivers responsive performance while maintaining excellent fuel efficiency.",
     specs: {
@@ -300,7 +300,7 @@ export const cars: Car[] = [
     transmission: "Automatic",
     color: "Intense Blue",
     condition: "Certified Pre-Owned",
-    photos: [ph(701), ph(702), ph(703), ph(704), ph(705), ph(706)],
+    photos: ["https://files.manuscdn.com/user_upload_by_module/session_file/310519663465545962/sfdkrhXUuQGkyMwT.jpg"],
     description:
       "The Elantra N Line brings sporty performance to the compact sedan segment. With a turbocharged engine and sport-tuned suspension, it's the perfect balance between daily comfort and weekend fun.",
     specs: {
@@ -344,7 +344,7 @@ export const cars: Car[] = [
     transmission: "Automatic",
     color: "Oxford White",
     condition: "Certified Pre-Owned",
-    photos: [ph(801), ph(802), ph(803), ph(804), ph(805), ph(806)],
+    photos: ["https://files.manuscdn.com/user_upload_by_module/session_file/310519663465545962/DTopgskXcjeQAVsJ.jpg"],
     description:
       "The 2023 Ford Explorer XLT is a three-row SUV that excels at family duties while offering surprising driving dynamics. The turbocharged EcoBoost engine provides strong performance, and the spacious third row makes it ideal for large families.",
     specs: {
@@ -388,7 +388,7 @@ export const cars: Car[] = [
     transmission: "Automatic",
     color: "Classic Silver",
     condition: "Used",
-    photos: [ph(901), ph(902), ph(903), ph(904), ph(905), ph(906)],
+    photos: ["https://files.manuscdn.com/user_upload_by_module/session_file/310519663465545962/nHIoBOtgxwHrTjeM.jpg"],
     description:
       "The Toyota Corolla is the world's best-selling car for a reason. This 2022 LE model offers exceptional reliability, great fuel economy, and a comfortable ride. A smart investment for budget-conscious buyers.",
     specs: {
@@ -430,7 +430,7 @@ export const cars: Car[] = [
     transmission: "Automatic",
     color: "Starbright Yellow",
     condition: "New",
-    photos: [ph(1001), ph(1002), ph(1003), ph(1004), ph(1005), ph(1006)],
+    photos: ["https://files.manuscdn.com/user_upload_by_module/session_file/310519663465545962/leEvUraHDmUcJRRG.jpg"],
     description:
       "The 2024 Kia Seltos SX Turbo packs premium features into a compact SUV body. With its turbocharged engine, it offers peppy performance while the high-tech interior punches well above its price point.",
     specs: {
@@ -473,7 +473,7 @@ export const cars: Car[] = [
     transmission: "Automatic",
     color: "Deep Black Pearl",
     condition: "Used",
-    photos: [ph(1101), ph(1102), ph(1103), ph(1104), ph(1105), ph(1106)],
+    photos: ["https://files.manuscdn.com/user_upload_by_module/session_file/310519663465545962/MVRXpwrJYdWXQozg.jpg"],
     description:
       "The Volkswagen Tiguan SE offers German build quality in a practical compact SUV package. The turbocharged engine delivers confident power while the well-crafted interior feels a class above. Available third-row seating adds versatility.",
     specs: {
@@ -516,7 +516,7 @@ export const cars: Car[] = [
     transmission: "Automatic",
     color: "Graphite",
     condition: "New",
-    photos: [ph(1201), ph(1202), ph(1203), ph(1204), ph(1205), ph(1206)],
+    photos: ["https://files.manuscdn.com/user_upload_by_module/session_file/310519663465545962/ivumbbJIxAhHYlrh.jpg"],
     description:
       "The legendary Toyota Hilux needs no introduction. This SR5 model combines rugged capability with modern comfort. The diesel engine offers incredible torque for towing and off-road work. Built to last in the toughest conditions.",
     specs: {
@@ -561,7 +561,7 @@ export const cars: Car[] = [
     transmission: "Automatic",
     color: "Shimmering Silver",
     condition: "Certified Pre-Owned",
-    photos: [ph(1301), ph(1302), ph(1303), ph(1304), ph(1305), ph(1306)],
+    photos: ["https://files.manuscdn.com/user_upload_by_module/session_file/310519663465545962/bMJosuigSmUAkRbg.jpg"],
     description:
       "The Sonata Limited is Hyundai's flagship sedan loaded with premium features. The striking coupe-like silhouette hides a spacious interior with top-tier tech. Highway Driving Assist makes long commutes effortless.",
     specs: {
@@ -605,7 +605,7 @@ export const cars: Car[] = [
     transmission: "Automatic",
     color: "Obsidian Blue Pearl",
     condition: "Used",
-    photos: [ph(1401), ph(1402), ph(1403), ph(1404), ph(1405), ph(1406)],
+    photos: ["https://files.manuscdn.com/user_upload_by_module/session_file/310519663465545962/PcQCopnvCKmGIYJd.jpg"],
     description:
       "The Honda CR-V EX has been one of America's best-selling SUVs for years. This well-maintained example offers a turbocharged engine, Honda Sensing safety suite, and a practical, spacious interior. A dependable family hauler.",
     specs: {
@@ -648,7 +648,7 @@ export const cars: Car[] = [
     transmission: "Automatic",
     color: "Snow White Pearl",
     condition: "New",
-    photos: [ph(1501), ph(1502), ph(1503), ph(1504), ph(1505), ph(1506)],
+    photos: ["https://files.manuscdn.com/user_upload_by_module/session_file/310519663465545962/gamokgTKbBhtOQMs.jpg"],
     description:
       "The Kia Forte GT is the sportiest variant of Kia's popular compact sedan. A turbocharged engine and 7-speed dual-clutch transmission deliver exhilarating performance. Premium features come standard, making it an incredible value.",
     specs: {
@@ -692,7 +692,7 @@ export const cars: Car[] = [
     transmission: "Automatic",
     color: "Midnight Black",
     condition: "Used",
-    photos: [ph(1601), ph(1602), ph(1603), ph(1604), ph(1605), ph(1606)],
+    photos: ["https://files.manuscdn.com/user_upload_by_module/session_file/310519663465545962/xxUsscfiWraMwjeG.jpg"],
     description:
       "The iconic Toyota Land Cruiser — a symbol of prestige and unstoppable capability. This flagship SUV goes anywhere and does everything. The luxurious interior and legendary reliability make it the ultimate adventure vehicle.",
     specs: {
@@ -738,7 +738,7 @@ export const cars: Car[] = [
     transmission: "Automatic",
     color: "Astra Blue",
     condition: "Certified Pre-Owned",
-    photos: [ph(1701), ph(1702), ph(1703), ph(1704), ph(1705), ph(1706)],
+    photos: ["https://files.manuscdn.com/user_upload_by_module/session_file/310519663465545962/TIfYStVXYPDkgzzT.jpg"],
     description:
       "The Kia Carnival has redefined what a minivan can be. With SUV-like styling and premium features, this SX model is a luxury people mover. Three rows of comfortable seating and dual sunroofs make every journey special.",
     specs: {
@@ -782,7 +782,7 @@ export const cars: Car[] = [
     transmission: "Automatic",
     color: "Cyber Grey",
     condition: "New",
-    photos: [ph(1801), ph(1802), ph(1803), ph(1804), ph(1805), ph(1806)],
+    photos: ["https://files.manuscdn.com/user_upload_by_module/session_file/310519663465545962/kKANoyPIEJEZgdAg.jpg"],
     description:
       "Go electric with the all-new 2024 Hyundai Kona Electric. Redesigned from the ground up, it offers an impressive 261-mile range, fast charging capability, and a futuristic interior. The future of driving has arrived.",
     specs: {
@@ -827,7 +827,7 @@ export const cars: Car[] = [
     transmission: "Automatic",
     color: "Iconic Silver",
     condition: "Used",
-    photos: [ph(1901), ph(1902), ph(1903), ph(1904), ph(1905), ph(1906)],
+    photos: ["https://files.manuscdn.com/user_upload_by_module/session_file/310519663465545962/bbeUbXJhSaPUMBMu.jpg"],
     description:
       "The Ford F-150 XLT is America's best-selling truck. This capable workhorse features the powerful EcoBoost engine, advanced towing technology, and a military-grade aluminum body. Whether for work or weekend adventures, the F-150 delivers.",
     specs: {
@@ -871,7 +871,7 @@ export const cars: Car[] = [
     transmission: "Manual",
     color: "Kings Red",
     condition: "Used",
-    photos: [ph(2001), ph(2002), ph(2003), ph(2004), ph(2005), ph(2006)],
+    photos: ["https://files.manuscdn.com/user_upload_by_module/session_file/310519663465545962/tBLTiwdpCQOponrF.jpg"],
     description:
       "The Volkswagen Golf GTI is the original hot hatch and still the benchmark. This 8th generation model delivers thrilling performance with everyday practicality. The 6-speed manual gearbox makes every drive engaging.",
     specs: {
@@ -915,7 +915,7 @@ export const cars: Car[] = [
     transmission: "Automatic",
     color: "Celestite Grey",
     condition: "New",
-    photos: [ph(2101), ph(2102), ph(2103), ph(2104), ph(2105), ph(2106)],
+    photos: ["https://files.manuscdn.com/user_upload_by_module/session_file/310519663465545962/VcEaXHaZLLcHwZPa.jpg"],
     description:
       "The Corolla Cross Hybrid brings Toyota's legendary hybrid technology to the popular compact crossover segment. With standard AWD and exceptional fuel economy, it's the smart choice for daily commuters who want SUV versatility.",
     specs: {
@@ -958,7 +958,7 @@ export const cars: Car[] = [
     transmission: "Automatic",
     color: "Still Night Pearl",
     condition: "Used",
-    photos: [ph(2201), ph(2202), ph(2203), ph(2204), ph(2205), ph(2206)],
+    photos: ["https://files.manuscdn.com/user_upload_by_module/session_file/310519663465545962/ZfWeLlzNwZzllcyD.jpg"],
     description:
       "The Honda Accord Sport is a benchmark midsize sedan that balances performance, comfort, and reliability. The turbocharged engine provides spirited acceleration while still delivering great fuel economy. A proven choice at a great price.",
     specs: {
