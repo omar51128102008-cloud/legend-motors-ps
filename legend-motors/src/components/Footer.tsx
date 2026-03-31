@@ -46,7 +46,7 @@ export default function Footer() {
             </div>
             <p className="text-sm text-surface-400 mb-5 leading-relaxed">
               Your trusted destination for quality new and used vehicles in
-              Nablus. We make car buying simple, transparent, and enjoyable.
+              Ramallah. We make car buying simple, transparent, and enjoyable.
             </p>
             <div className="flex gap-3">
               <a
@@ -119,7 +119,7 @@ export default function Footer() {
               <li className="flex items-start gap-2.5">
                 <MapPin className="w-4 h-4 mt-0.5 text-brand-400 shrink-0" />
                 <span className="text-sm">
-                  Main Street, Nablus
+                  Main Street, Ramallah
                   <br />
                   Palestine
                 </span>

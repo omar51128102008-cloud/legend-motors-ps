@@ -11,13 +11,13 @@ const jsonLd = {
   "@type": "AutoDealer",
   name: "Legend Motors PS",
   description:
-    "Premium new and used car dealership in Nablus, Palestine. Browse Toyota, Hyundai, Kia, and more.",
+    "Premium new and used car dealership in Ramallah, Palestine. Browse Toyota, Hyundai, Kia, and more.",
   url: "https://legendmotorsps.com",
   telephone: "+970599000000",
   address: {
     "@type": "PostalAddress",
     streetAddress: "Main Street",
-    addressLocality: "Nablus",
+    addressLocality: "Ramallah",
     addressCountry: "PS",
   },
   openingHours: "Sa-Th 09:00-19:00",

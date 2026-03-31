@@ -56,7 +56,7 @@ export default function HeroSection() {
           {/* Heading */}
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white leading-[1.1] mb-5 animate-fade-up opacity-0 stagger-1">
             Find Your Dream Car{" "}
-            <span className="text-brand-400">in&nbsp;Nablus</span>
+            <span className="text-brand-400">in&nbsp;Ramallah</span>
           </h1>
 
           <p className="text-surface-400 text-base sm:text-lg max-w-xl mb-8 animate-fade-up opacity-0 stagger-2 leading-relaxed">
